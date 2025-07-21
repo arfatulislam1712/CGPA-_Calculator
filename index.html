@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+    <title> NU  CGPA Calculator</title>
+</head>
+<body>
+
+
+      <!-- National University Honours CGPA Calculator -->
+<div class="main-element">
+<!-- start -->
+ 
+<h2 > <span>National University</span> Honours CGPA Calculator</h2> 
+<label class="title" >1St Year GPA</label> <br>
+<input type="number" id="year1" step="0.01" min="0" max="4"  placeholder="Your GPA"> <br><br>
+
+<label class="title">2nd Year GPA</label> <br> 
+<input type="number" id="year2" step="0.01" min="0" max="4" placeholder="Your GPA"> <br> <br>
+
+<label class="title" >3rd Year GPA</label> <br>
+<input type="number" id="year3" step="0.01" min="0" max="4" placeholder="Your GPA"> <br> <br>
+
+<label class="title">4th Year GPA</label> <br>
+<input type="number" id="year4" step="0.01" min="0" max="4" placeholder="Your GPA"> <br> <br> <br>
+
+<button onclick="calculateCGPA()">Calculate CGPA</button> <br> <br>
+<div id="result"></div>
+
+</div>
+    
+<!-- Js File -->
+<script src="js/main.js"></script>
+</body>
+</html>
